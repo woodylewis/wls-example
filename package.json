@@ -6,11 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "Woody Lewis",
-    "email": "woody@woodylewis.com",
-    "url": "http://wlsllc.com"
-  },
   "author": "Woody Lewis <woody@woodylewis.com> (http://wlsllc.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.10.1"
+  }
 }
