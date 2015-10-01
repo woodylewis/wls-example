@@ -11,10 +11,6 @@
     "email": "woody@woodylewis.com",
     "url": "http://wlsllc.com"
   },
-  "license": "MIT",
-  "readme": "ERROR: No README data found!",
-  "_id": "wls-example@1.0.0",
-  "_shasum": "09d4e65d4b98cebb3a46cd416322307f396eea11",
-  "_from": "node_modules/wls-example",
-  "_resolved": "file:node_modules/wls-example"
+  "author": "Woody Lewis <woody@woodylewis.com> (http://wlsllc.com)",
+  "license": "MIT"
 }
