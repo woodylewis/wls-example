@@ -4,7 +4,7 @@
 */
 
 var Promise = require('bluebird'),
-	request = Promise.promisify(require('request'));
+	request = Promise.promisify(require('superagent'));
 
 module.exports = function(foo) {
 	console.log('INSIDE');
@@ -20,7 +20,7 @@ module.exports = function(foo) {
 
 	var wls_func = function(req, res, next) {
 		console.log('WLS_FUNC');
-		request('http://woodylewis.net') 
+		request('http://woodylewis.net/fetch-json/#/index') 
 		.then(function(contents) {
 			res.json({body: contents});
 		})
